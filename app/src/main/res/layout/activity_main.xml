@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/urlInput"
+        android:hint="Pega el link de YouTube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/modeGroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/videoOption"
+            android:text="Descargar video MP4"/>
+
+        <RadioButton
+            android:id="@+id/audioOption"
+            android:text="Descargar audio MP3"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:text="Descargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
