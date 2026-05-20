@@ -4,7 +4,8 @@ import os
 def descargar(url, mode, path):
     ydl_opts = {
         'outtmpl': os.path.join(path, '%(title)s.%(ext)s'),
-        'noplaylist': True
+        'noplaylist': True,
+        'updatetime': False
     }
 
     if mode == "video":
