@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40FF00FF">
+    <item>
+        <shape>
+            <solid android:color="#00000000" /> <!-- Fondo transparente -->
+            <corners android:radius="30dp" />
+            <stroke
+                android:width="4dp"
+                android:color="@color/neonPink" /> <!-- Contorno Neon Rosa grueso -->
+        </shape>
+    </item>
+</ripple>
