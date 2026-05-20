@@ -4,5 +4,8 @@
     <string name="option_video">Video MP4</string>
     <string name="option_audio">Audio MP3</string>
     <string name="btn_download">DESCARGAR</string>
+    <string name="title_baja_todo">Baja todo</string>
+    <string name="hint_fav_video">Pega el link de tu video favorito</string>
+    <string name="desc_bg">Imagen de fondo</string>
     <string name="supported_platforms">Videos de YouTube, Instagram, X y Más.</string>
 </resources>

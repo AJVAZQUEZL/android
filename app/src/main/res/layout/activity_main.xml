@@ -1,7 +1,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/bg_neon"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/desc_bg" />
 
     <!-- Video de fondo -->
     <VideoView
@@ -31,14 +31,15 @@
         android:background="#80000000" />
 
     <LinearLayout
-        android:layout_width="379dp"
-        android:layout_height="606dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175"
-        tools:layout_editor_absoluteX="13dp">
+        app:layout_constraintVertical_bias="0.175">
 
         <!-- Título con color Neon Verde -->
 
@@ -53,7 +54,7 @@
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="20"
-            android:text="Baja todo"
+            android:text="@string/title_baja_todo"
             android:textColor="@color/neonGreen"
             android:textSize="42sp"
             android:textStyle="bold" />
@@ -78,11 +79,12 @@
             android:layout_marginBottom="24dp"
             android:background="@drawable/rounded_input"
             android:elevation="4dp"
-            android:hint="Pega el link de tu video favarito"
+            android:hint="@string/hint_fav_video"
             android:inputType="textUri"
             android:padding="16dp"
             android:textColor="@color/white"
-            android:textColorHint="@color/hintText" />
+            android:textColorHint="@color/hintText"
+            android:importantForAutofill="no" />
 
         <RadioGroup
             android:id="@+id/modeGroup"
