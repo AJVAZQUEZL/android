@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125051054487",
+    "project_id": "descargayt-34b66",
+    "storage_bucket": "descargayt-34b66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125051054487:android:3e3e2f9701bad5e8dfbcd2",
+        "android_client_info": {
+          "package_name": "com.example.descargayt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZf2UY1fKjpf0zTHLSUd0frR2DBY1TX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Neon Palette -->
+    <color name="neonGreen">#39FF14</color>
+    <color name="neonPurple">#BC13FE</color>
+    <color name="neonPink">#FF00FF</color>
+    <color name="darkBackground">#0D0D0D</color>
+
+    <color name="primaryColor">#BC13FE</color>
+    <color name="primaryVariant">#8A2BE2</color>
+    <color name="secondaryColor">#39FF14</color>
+    <color name="accentColor">#39FF14</color>
+
+    <color name="overlayColor">#B3000000</color> <!-- Oscurecemos más para que el neon brille -->
+    <color name="inputBackground">#1AFFFFFF</color> <!-- Efecto cristal/glassmorphism -->
+    <color name="inputText">#FFFFFF</color>
+    <color name="hintText">#B3FFFFFF</color>
+</resources>
